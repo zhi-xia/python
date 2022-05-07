@@ -44,8 +44,8 @@ print("c的类型是",type(c))
 # 马六说不报名了
 baoming = ["张三","李四","王五","马六"]
 print(baoming)
-baoming.append("陈七") 
-baoming.append("林九") 
+baoming.append("陈七")
+baoming.append("林九")
 baoming.insert(1,"李三")
 print(baoming)
 baoming[2] = "李思"

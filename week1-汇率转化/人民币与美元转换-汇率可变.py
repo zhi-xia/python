@@ -1,5 +1,5 @@
 huilv = eval(input("请输入汇率："))
-for i in range(0,10):
+for i in range(0, 10):
     C = input("请输入人民币或美元：")
     if C[0] in ["$"]:
         d = eval(C[1:])

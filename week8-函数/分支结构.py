@@ -104,7 +104,6 @@
 # print(add())
 
 
-
 # # 函数的返回值
 # def fact(n,m=1):
 #     s = 1
@@ -143,15 +142,17 @@
 # print(shuchu)  # 1000
 
 # 定义全局变量
-n,s = 10,100
+n, s = 10, 100
 
-def yunsuan(a,b): # 100 100
+
+def yunsuan(a, b):  # 100 100
     n = a
     # s = 111   # 局部变量和全局变量重名，优先使用局部变量
     # print(s)
-    y = n*s
+    y = n * s
     return y
 
-shuchu = yunsuan(b=n,a=s)  # b=100 a = 100
+
+shuchu = yunsuan(b=n, a=s)  # b=100 a = 100
 print(shuchu)  # 10000
 print(s)

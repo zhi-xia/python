@@ -80,6 +80,7 @@
 
 
 import random
+
 # random.seed(10)
 while 1:
     print("============让我们来玩猜数字游戏============")
@@ -87,12 +88,12 @@ while 1:
     if s == "q":
         print("==================游戏结束==================")
         break
-    target = random.randint(0,9)
+    target = random.randint(0, 9)
     i = 0
     while 1:
         i += 1
         num = input("请输入一个0-9之间的整数：")
-        while not num.isnumeric():    # 判断是否为数字
+        while not num.isnumeric():  # 判断是否为数字
             num = input("请重新输入一个整数：")
         num = int(num)
         if num > target:

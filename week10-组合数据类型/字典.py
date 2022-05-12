@@ -20,8 +20,8 @@
 # print(b.values())
 
 # 练习
-name = ['zs','ls','ww','ml']
-score = [78,98,45,34]
+name = ['zs', 'ls', 'ww', 'ml']
+score = [78, 98, 45, 34]
 for i in range(4):
     a = set()
     a[name]

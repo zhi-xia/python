@@ -4,8 +4,8 @@ dayu = 0.01
 shaiwang = 0.01
 dayup = chushi
 # (1,366)是指从1到366
-for i in range(1,366):
-    if i % 5 in [1,2,3]:
+for i in range(1, 366):
+    if i % 5 in [1, 2, 3]:
         dayup = dayup * (1 + dayu)
     else:
         dayup = dayup * (1 - shaiwang)

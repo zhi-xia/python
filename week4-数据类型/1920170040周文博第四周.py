@@ -84,12 +84,12 @@ print(money)
 
 # 努力的话进步1%，休息退步1%，努力五天休息两天，基数假定为1，一年后是多少
 daylast = 1
-for tian in range(1,365+1):
-    if tian%7 in [5,6]:
-        daylast = daylast*(1-0.01)
+for tian in range(1, 365 + 1):
+    if tian % 7 in [5, 6]:
+        daylast = daylast * (1 - 0.01)
     else:
-        daylast = daylast*(1+0.01)
+        daylast = daylast * (1 + 0.01)
 # 保留三位小数点
 # print("{:.3f}".format(daylast))
 # 保留三位有效数字
-print(round(daylast,3))
+print(round(daylast, 3))

@@ -4,7 +4,7 @@ num = int(num)
 # 创建一个列表存储水仙花数
 sxh = []
 
-for n in range(100,num+1):
+for n in range(100, num + 1):
     i = n // 100
     j = n // 10 % 10
     k = n % 10
@@ -12,7 +12,7 @@ for n in range(100,num+1):
         # 将水仙花数保存到列表
         sxh.append(n)
         # 保存为最大的数
-        max = n
+        maxnum = n
 
 print("--------(周文博)程序结果输出如下--------")
 # 判断是否有水仙花数

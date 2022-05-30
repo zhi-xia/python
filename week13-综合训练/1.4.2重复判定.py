@@ -5,6 +5,7 @@
 #     输出：中奖的话输出奖项和奖品，不中奖的话输出：欢迎再来
 import random
 
+print("这是周文博编写的猜数字游戏")
 maxTimes = 3  # 剩余抽奖次数
 jiangpined = [0]  # 抽过的奖品
 
@@ -18,11 +19,11 @@ for i in range(20):
         jiangpin[num] = '一等奖 电脑'
     if i + 1 == 15:
         jiangpin[num] = '二等奖 手机'
-    print(num)
+    print(num, end=' ')  # python中print默认换行，如果要不换行以空格结尾，就用end=' '
 # print(jiangpin)
 
 # 开始抽奖
-print(f"欢迎进入游戏时间，你有{maxTimes}次机会")
+print(f"\n欢迎进入游戏时间，你有{maxTimes}次机会")
 i = 1  # 抽奖次数
 while i <= maxTimes:
     # 判断输入值是否合法 - 不合法就重新抽

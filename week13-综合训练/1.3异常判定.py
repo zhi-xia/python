@@ -25,5 +25,6 @@ while i <= maxTimes:
     else:
         print("太小了")
     i = i + 1
-print("很遗憾，游戏结束")
-print(f"猜的数是{midishu}")
+else:
+    print("很遗憾，游戏结束")
+    print(f"猜的数是{midishu}")

@@ -5,6 +5,7 @@
 #     输出：中奖的话输出奖项和奖品，不中奖的话输出：欢迎再来
 import random
 
+print("这是周文博编写的猜数字游戏")
 for i in range(20):
     num = random.randint(1, 100)
     if i == 3:
@@ -13,7 +14,7 @@ for i in range(20):
         jiangping[num] = '一等奖 电脑'
     if i == 15:
         jiangping[num] = '二等奖 手机'
-print(jiangping)
+print(jiangping, end='')
 maxTimes = 3
 print(f"欢迎进入游戏时间，你有{maxTimes}次机会")
 i = 1

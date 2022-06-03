@@ -1,1 +1,3 @@
-print("This is a commit test.")
+import matplotlib
+
+print(matplotlib.__version__)

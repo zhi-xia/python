@@ -10,7 +10,7 @@ screen_width = 450
 # 屏幕高度
 screen_height = 560
 # 游戏剩余时间
-times = 10
+times = 30
 # 绘制窗口
 screen = pygame.display.set_mode((screen_width, screen_height), 0, 32)
 
@@ -26,7 +26,7 @@ def game_start():
     banana = pygame.image.load('tao1.png')
     game_background = pygame.image.load('background.jpg')
     # 香蕉下落速度
-    speed_list = [1, 2, 3, 4, 5]
+    speed_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     # 分数
     score = 0
     # 猴子位置信息
